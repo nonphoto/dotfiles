@@ -3,3 +3,4 @@
 	email = jonaskluebbers@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+	editor = /usr/bin/vim
