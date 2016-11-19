@@ -1,3 +1,6 @@
 [submodule "dotfiles/vim/bundle/vim-polyglot"]
 	path = dotfiles/vim/bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "dotfiles/vim/bundle/vim-sneak"]
+	path = dotfiles/vim/bundle/vim-sneak
+	url = https://github.com/justinmk/vim-sneak.git
