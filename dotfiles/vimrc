@@ -1,0 +1,66 @@
+filetype off
+call pathogen#infect()
+filetype plugin indent on
+
+set directory^=$HOME/.vim/tmp//
+
+syntax on
+colorscheme terminal
+
+set nocompatible
+set encoding=utf-8
+set scrolloff=5
+set autoindent
+set hidden
+set ttyfast
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+
+set wildmenu
+set wildmode=list:longest
+set laststatus=2
+set relativenumber
+set fillchars=" "
+
+set ignorecase
+set smartcase
+set incsearch
+set showmatch
+set nohlsearch
+
+set wrap
+set linebreak
+set showbreak=…
+set list
+set listchars=tab:▸\ ,eol:¬
+
+let mapleader = " "
+
+nnoremap <leader><leader> <C-W>w
+nnoremap j gj
+nnoremap k gk
+nnoremap U <C-R>
+
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+vnoremap <esc> <C-c>
+
+" Show syntax highlighting groups for word under cursor
+function! <sid>SynStack()
+	if !exists("*synstack")
+		return
+	endif
+	echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
+command! SynStack :call <sid>SynStack()

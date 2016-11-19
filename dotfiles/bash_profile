@@ -1,0 +1,31 @@
+export PATH="$HOME/bin:$PATH"
+
+source ~/.git-prompt.sh
+source ~/.git-completion.sh
+
+PS1='[\W] $(__git_ps1 "(%s) ")'
+
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+alias cdp="cd ~/projects"
+
+alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias fzf="fzf --color=bw"
+alias love="/Applications/love.app/Contents/MacOS/love"
+alias server="python -m SimpleHTTPServer 8000"
+alias mcserver=""
+
+function mcserver {
+	java -Xmx1024M -Xms1024M -jar $1 nogui
+}
+
+function run-sketch {
+    processing-java --sketch=`pwd`$1 --output=`pwd`"/out" --force --run;
+    rm -rf 'pwd'"/out";
+}
+
+function new-sketch {
+    mkdir $1; touch $1/$1.pde; cd $1;
+}
