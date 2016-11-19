@@ -7,3 +7,6 @@
 [submodule "dotfiles/vim/bundle/vim-commentary"]
 	path = dotfiles/vim/bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "dotfiles/vim/bundle/vim-repeat"]
+	path = dotfiles/vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
