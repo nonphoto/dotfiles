@@ -1,7 +1,8 @@
 #!/bin/bash
 
-dir="`dirname $0`"
-dotfiles=$dir/dotfiles
+cd $(dirname $0)
+
+dotfiles=$PWD/dotfiles
 backup=~/dotfiles_backup
 
 for file in $dotfiles/*
