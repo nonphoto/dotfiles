@@ -64,3 +64,5 @@ function! <sid>SynStack()
 	echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 command! SynStack :call <sid>SynStack()
+
+autocmd Filetype gitcommit setlocal spell textwidth=72
