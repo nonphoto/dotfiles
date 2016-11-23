@@ -4,3 +4,5 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = /usr/bin/vim
+[alias]
+	graph = log --all --decorate --oneline --graph
