@@ -1,4 +1,5 @@
 export PATH="$HOME/bin:$PATH"
+export FZF_DEFAULT_OPTS="--color=bw"
 
 source "/usr/local/etc/bash_completion.d/git-completion.bash"
 source "/usr/local/etc/bash_completion.d/git-prompt.sh"
@@ -11,10 +12,8 @@ alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias cdp="cd ~/projects"
 
-alias fzf="fzf --color=bw"
 alias love="/Applications/love.app/Contents/MacOS/love"
 alias server="python -m SimpleHTTPServer 8000"
-alias mcserver=""
 
 function mcserver {
 	java -Xmx1024M -Xms1024M -jar $1 nogui

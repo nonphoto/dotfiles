@@ -16,3 +16,6 @@
 [submodule "dotfiles/vim/bundle/targets.vim"]
 	path = dotfiles/vim/bundle/targets.vim
 	url = https://github.com/wellle/targets.vim.git
+[submodule "dotfiles/vim/bundle/fzf"]
+	path = dotfiles/vim/bundle/fzf
+	url = https://github.com/junegunn/fzf.git
