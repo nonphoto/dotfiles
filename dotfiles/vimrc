@@ -39,11 +39,6 @@ set listchars=tab:▸\ ,eol:¬
 
 let mapleader = " "
 
-nnoremap <leader><leader> <C-W>w
-nnoremap j gj
-nnoremap k gk
-nnoremap U <C-R>
-
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -53,6 +48,12 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+nnoremap <leader><leader> <C-W>w
+nnoremap <leader>b :b#<cr>
+nnoremap j gj
+nnoremap k gk
+nnoremap U <C-R>
 
 vnoremap <esc> <C-c>
 

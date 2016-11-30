@@ -1,5 +1,9 @@
 export PATH="$HOME/bin:$PATH"
-export FZF_DEFAULT_OPTS="--color=bw"
+export FZF_DEFAULT_OPTS="
+-m
+--color fg:-1,bg:-1,hl:15,fg+:7,bg+:-1,hl+:15
+--color info:8,prompt:15,spinner:8,pointer:15,marker:0
+"
 
 source "/usr/local/etc/bash_completion.d/git-completion.bash"
 source "/usr/local/etc/bash_completion.d/git-prompt.sh"
