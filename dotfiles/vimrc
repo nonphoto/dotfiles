@@ -37,6 +37,8 @@ set showbreak=…
 set list
 set listchars=tab:▸\ ,eol:¬
 
+set tags=./.tags;/
+
 let mapleader = " "
 
 nnoremap <up> <nop>
