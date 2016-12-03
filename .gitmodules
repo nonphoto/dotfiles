@@ -19,3 +19,6 @@
 [submodule "dotfiles/vim/bundle/fzf"]
 	path = dotfiles/vim/bundle/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "dotfiles/vim/bundle/fzf.vim"]
+	path = dotfiles/vim/bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
