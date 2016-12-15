@@ -36,8 +36,6 @@ set list
 set listchars=tab:▸\ ,eol:¬
 set cursorline
 
-set tags=./.tags;/
-
 let mapleader = " "
 
 nnoremap <up> <nop>
