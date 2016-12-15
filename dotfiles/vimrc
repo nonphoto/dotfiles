@@ -13,29 +13,28 @@ set scrolloff=5
 set autoindent
 set hidden
 set ttyfast
-
+" Turn off automatic comment leader insertion for 'o' and 'O'.
+set formatoptions-=o
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
-
 set wildmenu
 set wildmode=list:longest
 set laststatus=2
-set relativenumber
+set number
 set fillchars=" "
-
 set ignorecase
 set smartcase
 set incsearch
 set showmatch
 set nohlsearch
-
 set wrap
 set linebreak
 set showbreak=…
 set list
 set listchars=tab:▸\ ,eol:¬
+set cursorline
 
 set tags=./.tags;/
 
@@ -56,6 +55,7 @@ nnoremap <leader>b :b#<cr>
 nnoremap j gj
 nnoremap k gk
 nnoremap U <C-R>
+nnoremap K i<cr><esc>
 
 nnoremap <leader>ff :Files<cr>
 nnoremap <leader>fb :Buffers<cr>

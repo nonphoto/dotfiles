@@ -82,9 +82,9 @@ hi MoreMsg ctermfg=6 ctermbg=14 cterm=NONE
 hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=NONE
 
 hi LineNr ctermfg=0 ctermbg=NONE cterm=NONE
-hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=NONE
+hi CursorLineNr ctermfg=7 ctermbg=NONE cterm=NONE
 hi Cursor ctermfg=0 ctermbg=15 cterm=NONE
-hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
+hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE
 
 hi StatusLine ctermfg=7 ctermbg=NONE cterm=underline
 hi StatusLineNC ctermfg=0 ctermbg=NONE cterm=underline
