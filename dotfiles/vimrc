@@ -1,53 +1,91 @@
+" Turn on pathogen.
 filetype off
 call pathogen#infect()
 filetype plugin indent on
 
-set directory^=$HOME/.vim/tmp//
+" Turn off Vi compatibility mode.
+set nocompatible
 
+" Move backup, swap, and undo files out of the way.
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+
+" Set syntax highlighting and color.
 syntax on
 colorscheme terminal
 
-set nocompatible
+" Set encoding to UTF-8.
 set encoding=utf-8
+
+" Show more lines when scrolling. 
 set scrolloff=5
+
+" Copy indentation to new lines.
 set autoindent
+
+" Allow switching away from unwritten buffers.
 set hidden
+
+" Indicate fast terminal connection.
 set ttyfast
+
 " Turn off automatic comment leader insertion for 'o' and 'O'.
 set formatoptions-=o
+
+" Use tabs with width 4.
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set noexpandtab
+
+" Enable enhanced command completion.
 set wildmenu
 set wildmode=list:longest
+
+" Show statusline even when there are no other windows.
 set laststatus=2
+
+" Show line numbers.
 set number
+
+" Hide the vertical window separator.
 set fillchars=" "
+
+" Ignore case in the search pattern unless there are upper case characters.
 set ignorecase
 set smartcase
+
+" Show current search pattern matches while typing.
 set incsearch
-set showmatch
+
+" Turn off search pattern highlighting when the search is completed.
 set nohlsearch
+
+" Enable soft line-wrapping.
 set wrap
 set linebreak
 set showbreak=…
+
+" Display whitespace characters.
 set list
 set listchars=tab:▸\ ,eol:¬
 set cursorline
 
+" Set the leader to spacebar.
 let mapleader = " "
 
+" Disable arrow keys.
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
-
 inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
+" Miscellaneous Normal mode bindings.
 nnoremap <leader><leader> <C-W>w
 nnoremap <leader>b :b#<cr>
 nnoremap j gj
@@ -55,11 +93,16 @@ nnoremap k gk
 nnoremap U <C-R>
 nnoremap K i<cr><esc>
 
+" Fzf bindings.
 nnoremap <leader>ff :Files<cr>
 nnoremap <leader>fb :Buffers<cr>
 nnoremap <leader>ft :Tags<cr>
 
+" Prevent delay on escape in Visual mode.
 vnoremap <esc> <C-c>
+
+" Turn on spell-check and hard line-wrapping for git commit messages.
+autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " Show syntax highlighting groups for word under cursor
 function! <sid>SynStack()
@@ -69,5 +112,3 @@ function! <sid>SynStack()
 	echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 command! SynStack :call <sid>SynStack()
-
-autocmd Filetype gitcommit setlocal spell textwidth=72
