@@ -3,7 +3,6 @@
 	email = jonaskluebbers@gmail.com
 [core]
 	excludesfile = ~/.gitignore
-	editor = "/usr/local/Cellar/vim/8.0.0091/bin/vim"
 [alias]
 	graph = log --all --decorate --oneline --graph
 	ctags = !.git/hooks/ctags
