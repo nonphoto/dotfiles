@@ -28,3 +28,6 @@
 [submodule "dotfiles/vim/bundle/completor.vim"]
 	path = dotfiles/vim/bundle/completor.vim
 	url = https://github.com/maralla/completor.vim.git
+[submodule "dotfiles/vim/bundle/vim-sleuth"]
+	path = dotfiles/vim/bundle/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
