@@ -1,6 +1,6 @@
 [user]
-	name = nonphoto
-	email = jonaskluebbers@gmail.com
+	name = Jonas Luebbers
+	email = jluebbers@squarespace.com
 [core]
 	excludesfile = ~/.gitignore
 [alias]
