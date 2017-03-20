@@ -86,7 +86,11 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 
 " Miscellaneous Normal mode bindings.
-nnoremap <leader><leader> <C-W>w
+nnoremap <leader>ww <C-W>w
+nnoremap <leader>wh <C-W>h
+nnoremap <leader>wj <C-W>j
+nnoremap <leader>wk <C-W>k
+nnoremap <leader>wl <C-W>l
 nnoremap <leader>b :b#<cr>
 nnoremap j gj
 nnoremap k gk
