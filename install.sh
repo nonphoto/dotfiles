@@ -6,7 +6,7 @@ dotfiles=$PWD/dotfiles
 backup=~/dotfiles_backup
 
 for file in $dotfiles/*
-do    
+do
 	dest=~/.${file##*/}
 
 	if [ -h $dest ]
