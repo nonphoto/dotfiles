@@ -21,7 +21,7 @@ alias .....="cd ../../../../"
 alias cdp="cd ~/projects"
 
 alias love="/Applications/love.app/Contents/MacOS/love"
-alias server="python -m SimpleHTTPServer 8000"
+alias server="python -m SimpleHTTPServer 9000"
 
 function mcserver {
 	java -Xmx1024M -Xms1024M -jar $1 nogui
