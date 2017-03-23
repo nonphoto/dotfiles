@@ -1,0 +1,40 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "SF Mono",
+    "editor.fontWeight": "300",
+    "editor.formatOnType": true,
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.acceptSuggestionOnEnter": false,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "boundary",
+    "workbench.editor.showTabs": false,
+    "workbench.editor.showIcons": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.blame.annotation.highlight": "gutter",
+    "gitlens.blame.annotation.activeLine": "off",
+    "gitlens.codeLens.visibility": "off",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/dist": true
+    },
+    "window.zoomLevel": 0,
+    "files.associations": {
+      "*.block": "jsont",
+      "*.page": "jsont",
+      "*.region": "jsont",
+      "*.list": "jsont",
+      "*.item": "jsont"
+    },
+    "auto-rename-tag.activationOnLanguage": [
+        "html",
+        "jsont"
+    ],
+    "projectManager.openInNewWindow": false
+  }
