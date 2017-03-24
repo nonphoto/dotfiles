@@ -30,7 +30,8 @@
       "*.page": "jsont",
       "*.region": "jsont",
       "*.list": "jsont",
-      "*.item": "jsont"
+      "*.item": "jsont",
+      "bash_profile": "shellscript"
     },
     "auto-rename-tag.activationOnLanguage": [
         "html",
