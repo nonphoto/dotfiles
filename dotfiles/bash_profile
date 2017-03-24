@@ -1,3 +1,4 @@
+export VISUAL=vim
 export EDITOR="$VISUAL"
 export FZF_DEFAULT_OPTS="
 -m
