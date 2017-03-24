@@ -4,6 +4,7 @@
 [core]
 	excludesfile = ~/.gitignore
 [alias]
+	lg = log --oneline
 	graph = log --all --decorate --oneline --graph
 	ctags = !.git/hooks/ctags
 [init]
