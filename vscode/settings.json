@@ -8,6 +8,7 @@
     "editor.acceptSuggestionOnEnter": false,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
+    "editor.overviewRulerBorder": false,
     "workbench.editor.showTabs": false,
     "workbench.editor.showIcons": false,
     "workbench.statusBar.visible": false,
@@ -38,4 +39,4 @@
         "jsont"
     ],
     "projectManager.openInNewWindow": false
-  }
+}
