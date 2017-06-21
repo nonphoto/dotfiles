@@ -5,17 +5,15 @@
     "editor.formatOnType": true,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
-    "editor.acceptSuggestionOnEnter": false,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
     "workbench.editor.showTabs": false,
     "workbench.editor.showIcons": false,
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "gitlens.blame.annotation.highlight": "gutter",
-    "gitlens.blame.annotation.activeLine": "off",
-    "gitlens.codeLens.visibility": "off",
     "files.trimTrailingWhitespace": true,
     "files.exclude": {
         "**/.git": true,
@@ -36,5 +34,5 @@
         "html",
         "jsont"
     ],
-    "projectManager.openInNewWindow": false
-  }
+    "workbench.iconTheme": null
+}
