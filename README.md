@@ -4,12 +4,12 @@
 This is my personal setup and has only been tested on my machine. You should not install these without reading them first, but hey, what's the worst that could happen?
 
 ### Using Git
-Clone the repository wherever you like. Run `install.sh` to symlink the files into your home directory. If there are any conflicts, the existing files will be moved to `~/dotfiles_backup`.
+Clone the repository wherever you like. Run `link.sh` to symlink the files into your home directory. If there are any conflicts, the existing files will be moved to `~/dotfiles_backup`.
 
 ```
 git clone https://github.com/nonphoto/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-./install.sh
+./link.sh
 ```
 
 ## Terminal
