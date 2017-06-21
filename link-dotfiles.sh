@@ -5,26 +5,31 @@ cd $(dirname $0)
 dotfiles=$PWD/dotfiles
 backup=~/dotfiles_backup
 
-for file in $dotfiles/*
-do
-	dest=~/.${file##*/}
+function link {
+	source=$1
+	target=$2
 
-	if [ -h $dest ]
+	if [ -h $target ]
 	then
-		echo "Remove symlink $dest"
-		rm $dest
-	elif [ -f $dest ]
+		echo "Remove symlink $target"
+		rm $target
+	elif [ -f $target ]
 	then
-		echo "Back up $dest"
+		echo "Back up $target"
 		if [ ! -d $backup ]
 		then
 			mkdir $backup
 		fi
-		mv $dest $backup
+		mv $target $backup
 	fi
 
-	echo "Create symlink $dest -> $file"
-	ln -s $file $dest
+	echo "Create symlink $target -> $source"
+	ln -s $source $target
+}
+
+for file in $dotfiles/*
+do
+	link $file ~/.${file##*/}
 done
 
 for file in ~/.*

@@ -34,5 +34,6 @@
         "html",
         "jsont"
     ],
-    "workbench.iconTheme": null
+    "workbench.iconTheme": null,
+    "git.enableSmartCommit": true
 }
