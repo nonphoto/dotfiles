@@ -1,6 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-  { "key": "shift+cmd+g", "command": "workbench.view.git" },
+  { "key": "shift+cmd+g", "command": "workbench.view.scm" },
   { "key": "cmd+l", "command": "expandLineSelection" },
   { "key": "cmd+b", "command": "workbench.action.showAllEditors" }
 ]
