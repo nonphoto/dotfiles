@@ -34,5 +34,6 @@
         "jsont"
     ],
     "workbench.iconTheme": null,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true
 }
