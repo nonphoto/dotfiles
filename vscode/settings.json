@@ -4,19 +4,19 @@
     "editor.fontWeight": "300",
     "editor.formatOnType": true,
     "editor.fontLigatures": true,
-    "editor.tabSize": 2,
-    "editor.acceptSuggestionOnEnter": false,
+    "editor.tabSize": 4,
     "editor.wordWrap": "on",
+<<<<<<< HEAD
     "editor.renderWhitespace": "boundary",
+=======
+    "editor.minimap.enabled": false,
+>>>>>>> 845a0da82dd35bc7bcb42cd2fea92917c7d92d7d
     "editor.overviewRulerBorder": false,
     "workbench.editor.showTabs": false,
     "workbench.editor.showIcons": false,
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "gitlens.blame.annotation.highlight": "gutter",
-    "gitlens.blame.annotation.activeLine": "off",
-    "gitlens.codeLens.visibility": "off",
     "files.trimTrailingWhitespace": true,
     "files.exclude": {
         "**/.git": true,
@@ -38,5 +38,11 @@
         "html",
         "jsont"
     ],
+<<<<<<< HEAD
     "projectManager.openInNewWindow": false
+=======
+    "workbench.iconTheme": null,
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true
+>>>>>>> 845a0da82dd35bc7bcb42cd2fea92917c7d92d7d
 }

@@ -1,11 +1,5 @@
+[core]
+	excludesfile = /Users/jluebbers/.gitignore
 [user]
 	name = Jonas Luebbers
 	email = jluebbers@squarespace.com
-[core]
-	excludesfile = ~/.gitignore
-[alias]
-	lg = log --oneline
-	graph = log --all --decorate --oneline --graph
-	ctags = !.git/hooks/ctags
-[init]
-	templatedir = ~/.git_template
