@@ -2,5 +2,16 @@
 [
   { "key": "shift+cmd+g", "command": "workbench.view.scm" },
   { "key": "cmd+l", "command": "expandLineSelection" },
-  { "key": "cmd+e", "command": "workbench.action.showAllEditors" }
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.showAllEditors"
+  },
+  {
+    "key": "shift+alt+cmd+p",
+    "command": "projectManager.listProjects"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "-projectManager.listProjects"
+  }
 ]

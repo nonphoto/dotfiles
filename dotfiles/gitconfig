@@ -3,3 +3,5 @@
 [user]
 	name = Jonas Luebbers
 	email = jluebbers@squarespace.com
+[alias]
+	lg = log --oneline

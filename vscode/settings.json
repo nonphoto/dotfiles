@@ -2,16 +2,14 @@
     "editor.fontSize": 14,
     "editor.fontFamily": "SF Mono",
     "editor.fontWeight": "300",
-    "editor.formatOnType": true,
+    "editor.autoIndent": true,
     "editor.fontLigatures": true,
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
-<<<<<<< HEAD
-    "editor.renderWhitespace": "boundary",
-=======
     "editor.minimap.enabled": false,
->>>>>>> 845a0da82dd35bc7bcb42cd2fea92917c7d92d7d
     "editor.overviewRulerBorder": false,
+    "editor.scrollBeyondLastLine": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "workbench.editor.showTabs": false,
     "workbench.editor.showIcons": false,
     "workbench.statusBar.visible": false,
@@ -23,26 +21,29 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/.DS_Store": true,
-        "**/dist": true
+        "**/dist/": true,
+        "**/build/": true,
+        "**/node_modules/": true,
     },
     "window.zoomLevel": 0,
     "files.associations": {
-      "*.block": "jsont",
-      "*.page": "jsont",
-      "*.region": "jsont",
-      "*.list": "jsont",
-      "*.item": "jsont",
-      "bash_profile": "shellscript"
+        "*.block": "jsont",
+        "*.page": "jsont",
+        "*.region": "jsont",
+        "*.list": "jsont",
+        "*.item": "jsont",
+        "bash_profile": "shellscript",
+        "*.template": "jsont"
     },
     "auto-rename-tag.activationOnLanguage": [
         "html",
         "jsont"
     ],
-<<<<<<< HEAD
-    "projectManager.openInNewWindow": false
-=======
     "workbench.iconTheme": null,
     "git.enableSmartCommit": true,
-    "extensions.ignoreRecommendations": true
->>>>>>> 845a0da82dd35bc7bcb42cd2fea92917c7d92d7d
+    "extensions.ignoreRecommendations": true,
+    "gitProjectManager.baseProjectsFolders": [
+        "~/projects",
+        "~/repos"
+    ]
 }
