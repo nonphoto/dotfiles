@@ -15,6 +15,8 @@
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
     "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.renderIndicators": false,
     "files.trimTrailingWhitespace": true,
     "files.exclude": {
         "**/.git": true,
@@ -23,7 +25,7 @@
         "**/.DS_Store": true,
         "**/dist/": true,
         "**/build/": true,
-        "**/node_modules/": true,
+        "**/node_modules/": true
     },
     "window.zoomLevel": 0,
     "files.associations": {
