@@ -5,3 +5,9 @@
 	email = jluebbers@squarespace.com
 [alias]
 	lg = log --oneline
+	co = checkout
+	pr = pull --rebase
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
