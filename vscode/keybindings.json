@@ -7,11 +7,7 @@
     "command": "workbench.action.showAllEditors"
   },
   {
-    "key": "shift+alt+cmd+p",
-    "command": "projectManager.listProjects"
-  },
-  {
     "key": "alt+cmd+p",
-    "command": "-projectManager.listProjects"
+    "command": "projectManager.listProjects"
   }
 ]
