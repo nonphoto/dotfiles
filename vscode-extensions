@@ -1,7 +1,10 @@
 EditorConfig.EditorConfig
-alefragnani.project-manager
-bentx.vscode-custom-theme
-eamodio.gitlens
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+eamodio.toggle-excluded-files
+felipecaputo.git-project-manager
 formulahendry.auto-rename-tag
+jock.svg
+msjsdiag.debugger-for-chrome
 slevesque.shader
 stormwarning.json-template
