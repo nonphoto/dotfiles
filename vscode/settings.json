@@ -44,8 +44,13 @@
     "workbench.iconTheme": null,
     "git.enableSmartCommit": true,
     "extensions.ignoreRecommendations": true,
+    "gitProjectManager.searchInsideProjects": false,
     "gitProjectManager.baseProjectsFolders": [
         "~/projects",
-        "~/repos"
-    ]
+        "~/repos",
+        "~/dotfiles"
+    ],
+    "gitlens.blame.line.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false
 }

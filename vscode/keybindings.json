@@ -5,9 +5,5 @@
   {
     "key": "cmd+e",
     "command": "workbench.action.showAllEditors"
-  },
-  {
-    "key": "alt+cmd+p",
-    "command": "projectManager.listProjects"
   }
 ]

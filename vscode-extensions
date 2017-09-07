@@ -1,6 +1,7 @@
 EditorConfig.EditorConfig
 christian-kohler.path-intellisense
 dbaeumer.vscode-eslint
+eamodio.gitlens
 eamodio.toggle-excluded-files
 felipecaputo.git-project-manager
 formulahendry.auto-rename-tag
