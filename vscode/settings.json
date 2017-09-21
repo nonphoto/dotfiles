@@ -20,13 +20,13 @@
     "diffEditor.renderIndicators": false,
     "files.trimTrailingWhitespace": true,
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.DS_Store": true,
-        "**/dist/": true,
-        "**/build/": true,
-        "**/node_modules/": true
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/.DS_Store": false,
+        "**/dist/": false,
+        "**/build/": false,
+        "**/node_modules/": false
     },
     "window.zoomLevel": 0,
     "files.associations": {

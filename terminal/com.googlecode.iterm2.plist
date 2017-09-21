@@ -453,6 +453,8 @@
 	</dict>
 	<key>HideScrollbar</key>
 	<false/>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
@@ -498,13 +500,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>2049 28 445 111 1280 -82 3440 1418 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 307 620 392 0 0 1280 778 </string>
+	<string>2690 770 620 392 1280 0 3440 1418 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>257 263 937 465 0 0 1280 800 </string>
+	<string>257 263 796 473 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1563 488 650 427 1280 0 3440 1418 </string>
+	<string>310 275 650 427 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>139 342 650 427 0 0 1280 778 </string>
 	<key>New Bookmarks</key>
@@ -1321,7 +1323,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-07-12T20:28:40Z</date>
+	<date>2017-09-20T02:45:27Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -1339,7 +1341,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.15</string>
+	<string>3.1.1</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
