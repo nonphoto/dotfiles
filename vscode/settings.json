@@ -19,15 +19,6 @@
     "diffEditor.renderSideBySide": false,
     "diffEditor.renderIndicators": false,
     "files.trimTrailingWhitespace": true,
-    "files.exclude": {
-        "**/.git": false,
-        "**/.svn": false,
-        "**/.hg": false,
-        "**/.DS_Store": false,
-        "**/dist/": false,
-        "**/build/": false,
-        "**/node_modules/": false
-    },
     "window.zoomLevel": 0,
     "files.associations": {
         "*.block": "jsont",
@@ -55,5 +46,14 @@
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "javascript.format.enable": false,
-    "eslint.autoFixOnSave": true
+    "eslint.autoFixOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "dist": true,
+        "build": true
+    }
 }
