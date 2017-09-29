@@ -55,5 +55,9 @@
         "**/.DS_Store": true,
         "dist": true,
         "build": true
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.includeLanguages": {
+        "jsont": "html"
     }
 }
