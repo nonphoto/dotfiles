@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /Users/jluebbers/.gitignore
+	editor = micro
 [user]
 	name = Jonas Luebbers
 	email = jluebbers@squarespace.com

@@ -1,4 +1,4 @@
-export VISUAL=nano
+export VISUAL=micro
 export EDITOR="$VISUAL"
 export PATH=${PATH}:~/bin
 
