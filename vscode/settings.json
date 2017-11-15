@@ -52,12 +52,19 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
-        "**/.DS_Store": true,
-        "dist": true,
-        "build": true
+        "**/.DS_Store": true
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.includeLanguages": {
         "jsont": "html"
-    }
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#5e5e5e",
+            "fontStyle": "italic"
+        }
+    },
+    "workbench.panel.location": "bottom",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
 }
