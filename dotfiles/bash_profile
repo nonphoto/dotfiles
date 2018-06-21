@@ -5,7 +5,7 @@ export PATH=${PATH}:~/bin
 source "/usr/local/etc/bash_completion.d/git-completion.bash"
 source "/usr/local/etc/bash_completion.d/git-prompt.sh"
 
-PS1='[\W] $(__git_ps1 "(%s) ")'
+PS1='\[\e[1m\][\W] $(__git_ps1 "(%s) ")\[\e[0m\]'
 
 alias ..="cd ../"
 alias ...="cd ../../"
