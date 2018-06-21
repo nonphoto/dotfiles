@@ -504,15 +504,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>2049 28 445 111 1280 -82 3440 1418 </string>
+	<string>3983 33 445 332 3440 0 2560 1440 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 290 620 392 0 0 1280 778 </string>
+	<string>2690 770 620 392 1280 0 3440 1418 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>149 265 770 429 0 0 1280 800 </string>
+	<string>3983 831 918 401 3440 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>542 327 652 451 0 0 1280 778 </string>
+	<string>131 95 732 476 0 0 3440 1418 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>139 342 650 427 0 0 1280 778 </string>
 	<key>New Bookmarks</key>
@@ -1181,7 +1181,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SFMono-Light 13</string>
+			<string>SFMono-Light 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1337,7 +1337,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-10-04T15:54:33Z</date>
+	<date>2018-02-23T19:13:46Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1363,7 +1363,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.2</string>
+	<string>3.1.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

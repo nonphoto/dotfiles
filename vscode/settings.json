@@ -42,7 +42,6 @@
         "~/repos",
         "~/dotfiles"
     ],
-    "gitlens.blame.line.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "javascript.format.enable": false,
@@ -52,7 +51,8 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
-        "**/.DS_Store": true
+        "**/.DS_Store": true,
+        "**/node_modules": true
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.includeLanguages": {
@@ -64,7 +64,26 @@
             "fontStyle": "italic"
         }
     },
-    "workbench.panel.location": "bottom",
     "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "gitlens.currentLine.enabled": false,
+    "explorer.decorations.colors": false,
+    "gitlens.keymap": "chorded",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "debug.hideActionBar": true,
+    "gitlens.historyExplorer.enabled": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
 }
